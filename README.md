@@ -7,7 +7,7 @@ Node: 16.7.0 <br />
 Cypress-file-upload: 5.0.8
 
 # Como rodar os testes
-1. Fazer o download do código utilizando
+1. Fazer o download do código fonte e utilizar:
 ```bash
 npm install cypress --save-dev
 ```
