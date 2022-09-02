@@ -2,8 +2,8 @@
 Projeto criado utilizando Cypress, onde o objetivo é automatizar a função de cadastro em uma plataforma de delivery.
 
 # Versões utilizadas
-Cypress: 10.7.0
-Node: 16.7.0
+Cypress: 10.7.0 <br />
+Node: 16.7.0 <br />
 Cypress-file-upload: 5.0.8
 
 # Como rodar os testes
