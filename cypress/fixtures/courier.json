@@ -1,0 +1,50 @@
+{
+  "cadastro_Sucesso":{
+  "name": "Roberto Santos",
+      "cpf": "84253230024",
+      "email": "roberto_santos@gmail.com",
+      "whatsapp": "11985210776",
+      "address":{
+        "postalcode": "13082901",
+        "street": "Rodovia Dom Pedro I",
+        "number": "513",
+        "address_details": "2 andar",
+        "district": "Jardim Santa Mônica",
+        "city_state": "Campinas/SP"
+      },
+      "delivery_method": "Moto",
+      "cnh": "cnh-digital.jpg"
+    },
+    "cpf_Invalido":{
+      "name": "Reinaldo Cerqueira",
+      "cpf": "920.737.200-21",
+      "email": "reinaldo_cerqueira@gmail.com",
+      "whatsapp": "11986600776",
+      "address":{
+        "postalcode": "13058012",
+        "street": "Rua Lélio Coluccini",
+        "number": "43",
+        "address_details": "Terreo",
+        "district": "Conjunto Habitacional Parque Itajaí",
+        "city_state": "Campinas/SP"
+      },
+      "delivery_method": "Moto",
+      "cnh": "cnh-digital.jpg"
+    },
+    "email_Invalido":{
+      "name": "Merlin Nunes",
+      "cpf": "09220307073",
+      "email": "merlin_magogmail.com",
+      "whatsapp": "11986600776",
+      "address":{
+        "postalcode": "07110120",
+        "street": "Rua Doutor Ângelo Vita",
+        "number": "29",
+        "address_details": "Portão branco",
+        "district": "Jardim São Paulo",
+        "city_state": "Guarulhos/SP"
+      },
+      "delivery_method": "Van/Carro",
+      "cnh": "cnh-digital.jpg"
+    }
+}

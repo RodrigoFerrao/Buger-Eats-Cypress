@@ -1,0 +1,18 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de testes do app BugerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Rodrigo Ferrao",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.7.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
