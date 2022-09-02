@@ -35,6 +35,7 @@ describe("Cadastro", () => {
     signup.browserSettings();
     signup.fillform(this.courier.email_Invalido);
     cy.get('input[name="email"]').should("not.contains.value", "@");
+    signup.submit()
   });
 
   context("Dado campos ausentes usuario não deve se tornar um entregador", function () {
