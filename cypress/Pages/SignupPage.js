@@ -39,7 +39,7 @@ class SignupPage{
     cy.get('li [src="/static/media/moto.c7bfc5a6.svg"]').click();
    
     // Fazendo upload da CNH
-    cy.get('div [class ="dropzone"] input[type="file"]').attachFile('/imagens/' + courier.cnh)
+    cy.get('div [class ="dropzone"] input[type="file"]').attachFile('../fixtures/imagens/cnh-digital.jpg')
   }
   submit(){
     cy.get('button[class="button-success"]').click()
