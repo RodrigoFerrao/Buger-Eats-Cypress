@@ -46,5 +46,21 @@
       },
       "delivery_method": "Van/Carro",
       "cnh": "cnh-digital.jpg"
+    },
+    "CEP_invalido":{
+      "name": "Denis Santana",
+      "cpf": "92045519090",
+      "email": "denis_santana@gmail.com",
+      "whatsapp": "11985200776",
+      "address":{
+        "postalcode": "Rua Marte planeta",
+        "street": "Avenida Vinte e Sete de Janeiro",
+        "number": "242",
+        "address_details": "Casa marrom",
+        "district": "Jardim Dom Fernando I",
+        "city_state": "Goiânia/GO"
+      },
+      "delivery_method": "Van/Carro",
+      "cnh": "cnh-digital.jpg"
     }
 }

@@ -29,11 +29,6 @@ class SignupPage{
     cy.get('input[name="address-number"]').type(courier.address.number);
     cy.get('input[name="address-details"]').type(courier.address.address_details);
    
-    // Validando endereço do courier
-    cy.get('input[name="address"]').should('have.value', courier.address.street);
-    cy.get('input[name="district"]').should('have.value', courier.address.district);
-    cy.get('input[name="city-uf"]').should('have.value', courier.address.city_state);
-    cy.get('input[name="postalcode"]').should('have.value', courier.address.postalcode);
 
     // Escolhendo metodo de entrega
     cy.get('li [src="/static/media/moto.c7bfc5a6.svg"]').click();
@@ -41,6 +36,14 @@ class SignupPage{
     // Fazendo upload da CNH
     cy.get('div [class ="dropzone"] input[type="file"]').attachFile('../fixtures/Imagens/cnh-digital.jpg')
   }
+  validateform(){
+    // Validando endereço do courier
+    cy.get('input[name="address"]').should('have.value', courier.address.street);
+    cy.get('input[name="district"]').should('have.value', courier.address.district);
+    cy.get('input[name="city-uf"]').should('have.value', courier.address.city_state);
+    cy.get('input[name="postalcode"]').should('have.value', courier.address.postalcode);
+    }
+    
   submit(){
     cy.get('button[class="button-success"]').click()
   }
@@ -49,7 +52,7 @@ class SignupPage{
     cy.get('div[class="swal2-html-container"]').should('have.text', expectedMessage);
   }
   alertMessage(expectedMessage){
-    // cy.get('div [class="alert-error"]').should('have.text', expectedMessage)
+   
     cy.contains('div [class="alert-error"]', expectedMessage).should('be.visible')
   }
 }

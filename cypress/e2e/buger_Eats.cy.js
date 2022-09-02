@@ -24,6 +24,8 @@ describe("Cadastro", () => {
     signup.modalValidation(expectedMessage);
   });
 
+
+
   it("Dado CPF invalido usuario não deve se tornar um entregador", function () {
     signup.browserSettings();
     signup.fillform(this.courier.cpf_Invalido);
@@ -31,12 +33,16 @@ describe("Cadastro", () => {
     signup.alertMessage("Oops! CPF inválido");
   });
 
+
+
   it("Dado e-mail invalido usuario não deve se tornar um entregador", function () {
     signup.browserSettings();
     signup.fillform(this.courier.email_Invalido);
     cy.get('input[name="email"]').should("not.contains.value", "@");
     signup.submit()
   });
+
+
 
   context("Dado campos ausentes usuario não deve se tornar um entregador", function () {
     const messages = [
@@ -49,6 +55,7 @@ describe("Cadastro", () => {
       { field: "cnh", output: "Adicione uma foto da sua CNH" },
     ]
 
+
     before (function(){
       signup.browserSettings()
       signup.submit()
@@ -59,4 +66,11 @@ describe("Cadastro", () => {
         })
       })
   })
-});
+
+
+  it("Dado CEP invalido plataforma deve alertar usuario", function () {
+    signup.browserSettings();
+    signup.fillform(this.courier.CEP_invalido);
+    signup.alertMessage("Informe um CEP válido");
+  })
+})
