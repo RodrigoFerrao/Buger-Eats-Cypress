@@ -1,5 +1,6 @@
 # Buger-Eats-Cypress
 Projeto criado seguindo as aulas de Fernando Papito, QAcademy, utilizando Cypress, onde o objetivo é automatizar a função de cadastro em uma plataforma de delivery.
+https://qacademy.co/
 
 # Versões utilizadas
 Cypress: 10.7.0 <br />
@@ -21,4 +22,3 @@ npx cypress run --record --key 7da13ab9-1034-4627-9cff-467db0770644
 ```
 Em seguida acesse o cypress dashboard atraves desse [Cypress.Dashboard](https://dashboard.cypress.io/projects/qmozyr/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&timeRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D)
 
-https://qacademy.co/
