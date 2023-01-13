@@ -1,5 +1,5 @@
 # Buger-Eats-Cypress
-Projeto criado seguindo as aulas de Fernando Papito, QAcademy, utilizando Cypress, onde o objetivo é automatizar a função de cadastro em uma plataforma de delivery.
+Projeto criado seguindo as aulas de Fernando Papito, QAcademy, utilizando Cypress, onde o objetivo é automatizar a função de cadastro em uma plataforma de delivery
 https://qacademy.co/
 
 # Versões utilizadas
